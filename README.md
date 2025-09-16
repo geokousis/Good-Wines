@@ -4,9 +4,10 @@
 
 # Project Background
 
-The Good Wines project involves the comprehensive analysis of numerous Vitis vinifera samples sourced from various regions. This endeavor aims to identify crucial SNPs that play a pivotal role in accurate identification. Subsequently, these identified SNPs will be employed in a targeted ddRAD analysis.
 
-So, first we downloaded public data to find informative SNPs that help us separate cultivars. Then, in silico ddRAD was performed using [ddraptor](https://github.com/geokousis/ddraptor), and from there, informative SNPs that help separate cultivars and are included in fragments were selected. After that, we received ddRAD samples and performed ddRAD analysis.
+The Good Wines project involves the comprehensive analysis of numerous Vitis vinifera samples sourced from various regions. This endeavor aims to identify crucial SNPs that play a pivotal role in accurate identification. Subsequently, these identified SNPs will be employed in a targeted ddRAD analysis, by which PCR target regions will be identified to enable cheap and effective cultivar identification.
+
+First, we downloaded public data to find informative SNPs that help us separate cultivars. In silico ddRAD was performed using [ddraptor](https://github.com/geokousis/ddraptor). Additionally, a more comprehensive approach was also followed: informative SNPs that help separate cultivars and are included in ddRAD fragments were selected. The enzyme pair that captured most of these SNPs was deemed the best candidate, and thus ddRAD was implemented with this pair. After that, we received ddRAD samples and performed ddRAD analysis.
 
 ![Project Poster](images/SMALL.png)
 
