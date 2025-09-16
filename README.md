@@ -26,6 +26,7 @@ Example results and figures are available in the `images/` directory. See below 
 
 ![Accuracy Results](images/accuracy_results.png)
 ![Confusion Matrix](images/confusion_matrix.png)
+![Dendrogram](images/dendrogram.png)
 ![Diversity Heatmap](images/diversity_heatmap-1.png)
 ![PCA Plot](images/pca_plot.png)
 
