@@ -1,7 +1,7 @@
 
 # Good-Wines Pipeline
 
-This repository contains a bioinformatics pipeline for identifying and analyzing PCR-friendly hotspots for primer design using sequencing data. The workflow is a work in progress and the README will be updated as the project evolves.
+This repository contains a bioinformatics pipeline for primer design for cultivar identification utilizing ddRAD sequencing data. The workflow is a work in progress and the README will be updated as the project evolves.
 
 ## Main Pipeline Scripts
 
