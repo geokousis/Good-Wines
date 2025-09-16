@@ -1,6 +1,17 @@
 
 # Good-Wines Pipeline
 
+
+# Project Background
+
+The Good Wines project involves the comprehensive analysis of numerous Vitis vinifera samples sourced from various regions. This endeavor aims to identify crucial SNPs that play a pivotal role in accurate identification. Subsequently, these identified SNPs will be employed in a targeted ddRAD analysis.
+
+So, first we downloaded public data to find informative SNPs that help us separate cultivars. Then, in silico ddRAD was performed using [ddraptor](https://github.com/geokousis/ddraptor), and from there, informative SNPs that help separate cultivars and are included in fragments were selected. After that, we received ddRAD samples and performed ddRAD analysis.
+
+![Project Poster](images/SMALL.png)
+
+# Pipeline Overview
+
 This repository contains a bioinformatics pipeline for exploring and identifying PCR-friendly regions for feature-targeted, cheap cultivar identification using ddRAD sequencing data. The workflow is a work in progress and the README will be updated as the project evolves.
 
 ## Main Pipeline Scripts
